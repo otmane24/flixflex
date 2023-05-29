@@ -182,7 +182,8 @@ class _SearchState extends State<Search> {
                       movieResult.isNotEmpty
                           ? listViewSearch(
                               controller: _scrollControllerSerie,
-                              resultSearch: movieResult)
+                              resultSearch: movieResult,
+                              isFilm: true)
                           : notFound(),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -200,7 +201,8 @@ class _SearchState extends State<Search> {
                       serieResult.isNotEmpty
                           ? listViewSearch(
                               controller: _scrollControllerSerie,
-                              resultSearch: serieResult)
+                              resultSearch: serieResult,
+                              isFilm: false)
                           : notFound()
                     ],
                   );
@@ -235,7 +237,8 @@ class _SearchState extends State<Search> {
                       movieResult.isNotEmpty
                           ? listViewSearch(
                               controller: _scrollControllerSerie,
-                              resultSearch: movieResult)
+                              resultSearch: movieResult,
+                              isFilm: true)
                           : notFound(),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -253,7 +256,8 @@ class _SearchState extends State<Search> {
                       serieResult.isNotEmpty
                           ? listViewSearch(
                               controller: _scrollControllerSerie,
-                              resultSearch: serieResult)
+                              resultSearch: serieResult,
+                              isFilm: false)
                           : notFound()
                     ],
                   );
