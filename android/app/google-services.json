@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "864100783206",
+    "project_id": "flixfle",
+    "storage_bucket": "flixfle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864100783206:android:3ad91797a3ddd1f37289a7",
+        "android_client_info": {
+          "package_name": "com.example.flixflex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGi5GVehWYraQh89ja0Xk6awYEB_KIadQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
